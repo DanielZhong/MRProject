@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.test"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+19-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-75
+19-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-72
+20    <uses-permission android:name="com.oculus.permission.RENDER_MODEL" />
+20-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-74
+20-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-71
+21    <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+21-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-71
+21-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-68
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-67
+22-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:22-64
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-79
+23-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-76
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-71
+24-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:22-68
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-80
+25-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:22-77
+26
+27    <uses-feature
+27-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-22:31
+28        android:name="android.hardware.vr.headtracking"
+28-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-56
+29        android:required="true"
+29-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-32
+30        android:version="1" />
+30-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-28
+31    <uses-feature
+31-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-25:36
+32        android:name="oculus.software.handtracking"
+32-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-52
+33        android:required="false" />
+33-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-33
+34    <uses-feature android:name="com.oculus.feature.RENDER_MODEL" />
+34-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-68
+34-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:19-65
+35    <uses-feature
+35-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-29:36
+36        android:name="com.oculus.feature.VIRTUAL_KEYBOARD"
+36-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-59
+37        android:required="false" />
+37-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33
+38    <uses-feature
+38-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:5-32:35
+39        android:name="android.hardware.vulkan.version"
+39-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-55
+40        android:required="true" />
+40-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-32
+41    <uses-feature
+41-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:5-35:36
+42        android:name="android.hardware.microphone"
+42-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-51
+43        android:required="false" />
+43-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-33
+44    <uses-feature
+44-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:5-38:36
+45        android:name="android.hardware.touchscreen"
+45-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-52
+46        android:required="false" />
+46-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-33
+47    <uses-feature
+47-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:5-41:36
+48        android:name="android.hardware.touchscreen.multitouch"
+48-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-63
+49        android:required="false" />
+49-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-33
+50    <uses-feature
+50-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:5-44:36
+51        android:name="android.hardware.touchscreen.multitouch.distinct"
+51-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-72
+52        android:required="false" />
+52-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-33
+53
+54    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+54-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:5-76
+54-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:22-73
+55
+56    <uses-feature
+56-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:5-50:36
+57        android:name="com.oculus.feature.PASSTHROUGH"
+57-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:9-54
+58        android:required="false" />
+58-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:9-33
+59    <uses-feature
+59-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:5-53:36
+60        android:name="com.oculus.software.body_tracking"
+60-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:9-57
+61        android:required="false" />
+61-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:9-33
+62
+63    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+63-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:5-75
+63-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:22-72
+64
+65    <uses-feature
+65-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:5-59:36
+66        android:name="oculus.software.face_tracking"
+66-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:9-53
+67        android:required="false" />
+67-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:9-33
+68
+69    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+69-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:5-75
+69-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:22-72
+70
+71    <uses-feature
+71-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:5-65:36
+72        android:name="oculus.software.eye_tracking"
+72-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:9-52
+73        android:required="false" />
+73-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:9-33
+74
+75    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+75-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:5-74
+75-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:22-71
+76
+77    <application
+77-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+78        android:allowBackup="false"
+78-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:9-36
+79        android:extractNativeLibs="true"
+79-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:9-41
+80        android:icon="@mipmap/app_icon"
+80-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+81        android:label="@string/app_name"
+81-->E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+82        android:networkSecurityConfig="@xml/network_sec_config" >
+82-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:9-64
+83        <meta-data
+83-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:9-77:37
+84            android:name="unityplayer.SkipPermissionsDialog"
+84-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-61
+85            android:value="false" />
+85-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-34
+86        <meta-data
+86-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:9-80:39
+87            android:name="com.samsung.android.vr.application.mode"
+87-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-67
+88            android:value="vr_only" />
+88-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-36
+89        <meta-data
+89-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:9-83:35
+90            android:name="com.oculus.handtracking.frequency"
+90-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:13-61
+91            android:value="LOW" />
+91-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:13-32
+92        <meta-data
+92-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:84:9-86:36
+93            android:name="com.oculus.handtracking.version"
+93-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:85:13-59
+94            android:value="V2.0" />
+94-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:86:13-33
+95        <meta-data
+95-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:9-89:37
+96            android:name="com.oculus.ossplash.background"
+96-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:13-58
+97            android:value="black" />
+97-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:13-34
+98        <meta-data
+98-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:9-92:54
+99            android:name="com.oculus.supportedDevices"
+99-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:91:13-55
+100            android:value="quest2|questpro|eureka" />
+100-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:92:13-51
+101        <meta-data
+101-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:93:9-95:33
+102            android:name="unity.splash-mode"
+102-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:94:13-45
+103            android:value="0" />
+103-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:95:13-30
+104        <meta-data
+104-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:96:9-98:36
+105            android:name="unity.splash-enable"
+105-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:97:13-47
+106            android:value="True" />
+106-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:98:13-33
+107        <meta-data
+107-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:99:9-101:36
+108            android:name="unity.launch-fullscreen"
+108-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:100:13-51
+109            android:value="True" />
+109-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:101:13-33
+110        <meta-data
+110-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:102:9-104:37
+111            android:name="unity.allow-resizable-window"
+111-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:103:13-56
+112            android:value="False" />
+112-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:104:13-34
+113        <meta-data
+113-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:105:9-107:50
+114            android:name="notch.config"
+114-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:106:13-40
+115            android:value="portrait|landscape" />
+115-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:107:13-47
+116        <meta-data
+116-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:108:9-110:36
+117            android:name="unity.auto-report-fully-drawn"
+117-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:109:13-57
+118            android:value="true" />
+118-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:110:13-33
+119
+120        <activity
+120-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:112:9-135:20
+121            android:name="com.unity3d.player.UnityPlayerActivity"
+121-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:113:13-66
+122            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+122-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:114:13-122
+123            android:excludeFromRecents="true"
+123-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:115:13-46
+124            android:exported="true"
+124-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:116:13-36
+125            android:hardwareAccelerated="false"
+125-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:117:13-48
+126            android:launchMode="singleTask"
+126-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:118:13-44
+127            android:resizeableActivity="false"
+127-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:119:13-47
+128            android:screenOrientation="landscape"
+128-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:120:13-50
+129            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+129-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:121:13-77
+130            <intent-filter>
+130-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:122:13-127:29
+131                <category android:name="android.intent.category.LAUNCHER" />
+131-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:123:17-77
+131-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:123:27-74
+132                <category android:name="com.oculus.intent.category.VR" />
+132-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:124:17-74
+132-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:124:27-71
+133
+134                <action android:name="android.intent.action.MAIN" />
+134-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:126:17-69
+134-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:126:25-66
+135            </intent-filter>
+136
+137            <meta-data
+137-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:129:13-131:40
+138                android:name="com.oculus.vr.focusaware"
+138-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:130:17-56
+139                android:value="true" />
+139-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:131:17-37
+140            <meta-data
+140-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:132:13-134:40
+141                android:name="notch_support"
+141-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:133:17-45
+142                android:value="true" />
+142-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:134:17-37
+143        </activity>
+144
+145        <meta-data
+145-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:137:9-139:37
+146            android:name="com.unity.xr.oculus.LowOverheadMode"
+146-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:138:13-63
+147            android:value="false" />
+147-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:139:13-34
+148        <meta-data
+148-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:140:9-142:37
+149            android:name="com.unity.xr.oculus.LateLatching"
+149-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:141:13-60
+150            android:value="false" />
+150-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:142:13-34
+151        <meta-data
+151-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:143:9-145:37
+152            android:name="com.unity.xr.oculus.LateLatchingDebug"
+152-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:144:13-65
+153            android:value="false" />
+153-->[:unityLibrary] E:\Upenn\MR\MRProject\test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:145:13-34
+154    </application>
+155
+156</manifest>
